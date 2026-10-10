@@ -3,17 +3,25 @@ dockerfiles
 
 A collection of delicious docker recipes.
 
-[![](https://travis-ci.org/vimagick/dockerfiles.svg)](https://travis-ci.org/vimagick/dockerfiles)
+[![build](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fvimagick%2Fdockerfiles%2Fcontents%2F.github%2Fworkflows&query=%24.length&style=for-the-badge&logo=github&label=Auto%20Builds)
+](https://github.com/vimagick/dockerfiles)
+[![docker](https://img.shields.io/badge/docker-easypi-blue.svg?logo=docker&style=for-the-badge)](https://hub.docker.com/u/easypi)
+
+![](https://img.shields.io/badge/linux-amd64-orange.svg?logo=linux&style=flat-square)
+![](https://img.shields.io/badge/linux-arm64-orange.svg?logo=linux&style=flat-square)
 
 - :octocat: <https://github.com/vimagick/dockerfiles>
 - :beetle: <https://github.com/vimagick/dockerfiles/issues>
 - :book: <https://github.com/vimagick/dockerfiles/wiki>
-- :whale: <https://hub.docker.com/u/vimagick/> (x86)
-- :whale: <https://hub.docker.com/u/easypi/> (arm)
+- :whale: <https://hub.docker.com/u/easypi/>
 
 ## Affiliates
 
 [![](https://www.vultr.com/media/banner_1.png)](https://www.vultr.com/?ref=6821947)
+
+
+<details>
+<summary>TL;DR: Image List</summary>
 
 ## Todo
 
@@ -37,7 +45,7 @@ A collection of delicious docker recipes.
 - [ ] rtmpdump
 - [ ] sensu
 - [ ] ssf
-- [ ] tshark
+- [x] tshark
 - [ ] youtube-upload
 
 ## Big Data
@@ -336,6 +344,7 @@ A collection of delicious docker recipes.
   - [x] actor-node-playwright-firefox
   - [x] actor-node-playwright-webkit
   - [x] actor-node-puppeteer-chrome
+- [x] caronc/apprise
 - [x] appsmith/appsmith-ce
 - [x] archivebox/archivebox
 - [x] docker.bintray.io/jfrog/artifactory-oss
@@ -451,6 +460,7 @@ A collection of delicious docker recipes.
 - [x] mongo :bucket:
 - [x] ghcr.io/scottlamb/moonfire-nvr
 - [x] ccrisan/motioneye
+- [x] ghcr.io/sleep3r/mtproto.zig
 - [x] ghcr.io/kitabisa/mubeng
 - [x] n8nio/n8n
 - [x] emqx/nanomq :cn:
@@ -561,6 +571,7 @@ A collection of delicious docker recipes.
 - [x] traefik
 - [x] trinodb/trino
 - [x] ghcr.io/coqui-ai/tts-cpu
+- [x] ghcr.io/tun2proxy/tun2proxy-alpine
 - [x] ultralytics/ultralytics
 - [x] louislam/uptime-kuma
 - [x] pikvm/ustreamer :camera:
@@ -576,6 +587,8 @@ A collection of delicious docker recipes.
 - [x] koenkk/zigbee2mqtt
 - [x] zookeeper
 - [x] elkozmon/zoonavigator
+
+</details>
 
 ## auto-completion
 
